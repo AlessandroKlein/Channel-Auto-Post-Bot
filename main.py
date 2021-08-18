@@ -28,23 +28,23 @@ FILTER_POLL = bool(os.environ.get("FILTER_POLL", True))
 FILTER_GAME = bool(os.environ.get("FILTER_GAME", True))
 
 FayasNoushad = Client(
-    "Channel Auto Post Bot",
+    "Bot de publicación automática del canal",
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"]
 )
 
 START_TEXT = """
-Hello {}, I am a channel auto post telegram bot.
+Hola {}, soy un bot de telegramas de publicación automática de canales.
 
-Made by @FayasNoushad
+Hecho por @
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/')
         ],[
-        InlineKeyboardButton('Source Code', url='https://github.com/FayasNoushad/Channel-Auto-Post-Bot')
+        InlineKeyboardButton('Source Code', url='https://github.com/')
         ]]
     )
 
