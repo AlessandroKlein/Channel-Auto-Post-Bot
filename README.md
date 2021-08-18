@@ -1,26 +1,26 @@
 # Channel-Auto-Post-Bot
 
-A channel auto post telegram bot.
+Un bot de telegrama de publicación automática de canal.
 
 ---
 
-```
-Made with Python3
+''
+Hecho con Python3
 (C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/Channel-Auto-Post-Bot/blob/main/LICENSE
-```
+Permiso de derechos de autor bajo licencia MIT
+Licencia -> https://github.com/FayasNoushad/Channel-Auto-Post-Bot/blob/main/LICENSE
+''
 
 ---
 
-## Deploy 
+## Implementar
 
-<details>
-  <summary><b>Deploy on Heroku</b></summary>
+<detalles>
+   <summary> <b> Implementar en Heroku </b> </summary>
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/Channel-Auto-Post-Bot/tree/main">
+  <a href="https://heroku.com/deploy?template=https://github.com/AlessandroKlein/Channel-Auto-Post-Bot">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -28,7 +28,7 @@ License -> https://github.com/FayasNoushad/Channel-Auto-Post-Bot/blob/main/LICEN
 </details>
 
 <details>
-  <summary><b>Deploy in your vps</b></summary>
+  <summary><b>Implementa en tu vps</b></summary>
 <br/>
 
 ```sh
@@ -46,34 +46,29 @@ python3 main.py
 ## Variables
 
 <details>
-  <summary><b>See Variables</b></summary>
+<summary> <b> Ver variables </b> </summary>
 <br/>
 
-- `API_HASH` Your API Hash from my.telegram.org
-- `API_ID` Your API ID from my.telegram.org
-- `BOT_TOKEN` Your bot token from @BotFather
-- `FROM_CHANNELS` From channel ids for auto post
-- `TO_CHAT` To channel or group or chat id for auto post
-- `FILTER_TEXT` (bool and optional) For text filter
-- `FILTER_AUDIO` (bool and optional) For audio filter
-- `FILTER_DOCUMENT` (bool and optional) For document filter
-- `FILTER_PHOTO` (bool and optional) For photo filter
-- `FILTER_STICKER` (bool and optional) For sticker filter
-- `FILTER_VIDEO` (bool and optional) For video filter
-- `FILTER_ANIMATION` (bool and optional) For animation filter
-- `FILTER_VOICE` (bool and optional) For voice filter
-- `FILTER_VIDEO_NOTE` (bool and optional) For video note filter
-- `FILTER_CONTACT` (bool and optional) For contact filter
-- `FILTER_VENUE` (bool and optional) For venue filter
-- `FILTER_LOCATION` (bool and optional) For location filter
-- `FILTER_POLL` (bool and optional) For poll filter
-- `FILTER_GAME` (bool and optional) For game filter
+- `API_HASH` Tu API Hash de my.telegram.org
+- `API_ID` Su ID de API de my.telegram.org
+- `BOT_TOKEN` Tu token de bot de @BotFather
+- `FROM_CHANNELS` De los identificadores de canal para publicación automática
+- `TO_CHAT` Al canal o grupo o id de chat para publicación automática
+- `FILTER_TEXT` (bool y opcional) Para filtro de texto
+- `FILTER_AUDIO` (bool y opcional) Para filtro de audio
+- `FILTER_DOCUMENT` (bool y opcional) para filtro de documentos
+- `FILTER_PHOTO` (bool y opcional) Para filtro de fotos
+- `FILTER_STICKER` (bool y opcional) Para filtro de pegatinas
+- `FILTER_VIDEO` (bool y opcional) Para filtro de video
+- `FILTER_ANIMATION` (bool y opcional) Para filtro de animación
+- `FILTER_VOICE` (bool y opcional) Para filtro de voz
+- `FILTER_VIDEO_NOTE` (bool y opcional) Para filtro de notas de video
+- `FILTER_CONTACT` (bool y opcional) Para filtro de contacto
+- `FILTER_VENUE` (bool y opcional) Para filtro de lugar
+- `FILTER_LOCATION` (bool y opcional) Para filtro de ubicación
+- `FILTER_POLL` (bool y opcional) Para filtro de encuesta
+- `FILTER_GAME` (bool y opcional) Para filtro de juego
 
 </details>
 
 ---
-
-## Credits
-
-- [Fayas Noushad](https://github.com/FayasNoushad)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
